@@ -1,4 +1,3 @@
-
 # As the travelling time between the mentioned universes can't  be negative so we can use Dijskta's algorithm
 def modifiedDijskta(adjMat, universes, patrols):
     # Relaxing all edges
@@ -30,3 +29,5 @@ if __name__ == '__main__':
     patrols = [set([int(i) for i in input().split()]) for j in range(universes)]
 
     print(modifiedDijskta(adjMat, universes, patrols))
+
+
